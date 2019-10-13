@@ -5,8 +5,10 @@
  * hosted on GitHub, https://GitHub.com/Naereen/Nginx-Fancyindex-Theme
  */
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
 * {
-    font-family: 'Verdana', sans-serif;
+	font-family: 'Inconsolata', monospace;
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -18,14 +20,16 @@ html {
 	color: #61666c;
 	font-weight: 300;
 	font-size: 1em;
-	line-height: 2em;
+	/*line-height: 2em;*/
+	line-height: 1.5em;
 }
 
 body {
 	margin: 0 auto;
 	padding-top: 20px;
-	max-width: 800px;
-	background-color: #2f343f;
+	/*max-width: 900px;*/
+	max-width: 553px;
+	background-color: #181818;
 	color: #FFFFFF
 }
 
@@ -65,13 +69,13 @@ a.clear, a.clear:link, a.clear:visited {
 	transition: all 300ms ease-in;
 }
 
-input {
+/*input {
 	margin: 0 auto;
 	font-size: 100%;
 	vertical-align: middle;
 	*overflow: visible;
 	line-height: normal;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 18px;
@@ -96,7 +100,7 @@ input {
 	-moz-transition: border linear .2s,box-shadow linear .2s;
 	-o-transition: border linear .2s,box-shadow linear .2s;
 	transition: border linear .2s,box-shadow linear .2s;
-}
+}*/
 input:focus {
 	outline: 0;
 	border-color: rgba(0,0,0,0.8);
@@ -191,6 +195,7 @@ td a {
 
 footer {
 	font-size:12px;
+	line-height: 1.5em;
 	text-align:center;
 }
 footer a {
