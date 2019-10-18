@@ -1,3 +1,4 @@
+// https://stackoverflow.com/a/21477063; modified
 function linkCheck(url) {
 	var http = new XMLHttpRequest();
 
